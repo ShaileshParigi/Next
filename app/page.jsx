@@ -5,9 +5,11 @@ const page = () => {
   return (
     <>
       <div>
-        <Link href="dashboard">DashBoard</Link>
+        <Link href="dashboard" placeholder="this is nav Link">
+          <span className="underline">DashBoard</span>
+        </Link>
       </div>
-      <h1>Home Page</h1>
+      <h1>This is Home Page</h1>
     </>
   );
 };
